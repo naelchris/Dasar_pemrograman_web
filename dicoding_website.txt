@@ -1,0 +1,163 @@
+web server -> lebih berfokus pada software yang dapat menguhubungkan komputer dengan komputer lain.
+
+http server
+Apache adalah salah satunya yang cukup friendly, gratis, dan tersedia untuk seluruh komputer dengan basis UNIX (termasuk MacOS) dan juga Windows.
+
+html cheat sheet :
+
+head -> <head> pada berkas HTML berfungsi sebagai tempat disimpannya informasi dari dokumen HTML
+
+title -> Informasi dapat berupa elemen meta, style, atau link. Dan juga pada elemen ini judul dari dokumen HTML didefinisikan dengan menggunakan elemen <title>
+
+
+##attribute pada html ada dua global dan spesifik, berikut adalah global atribute di html :
+
+1.accesskey
+
+Menentukan tombol shortcut untuk mengaktifkan/memfokuskan pada sebuah element.
+
+2.class
+
+Menentukan satu atau lebih classname untuk sebuah elemen.
+
+3.contenteditable
+
+Menentukan konten dari elemen merupakan konten yang dapat diubah atau tidak.
+
+4.data-* ( https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_global_data )
+
+Digunakan untuk menyimpan sebuah data pribadi khusus ke halaman atau aplikasi.
+
+5.dir
+
+Menentukan arah teks untuk konten pada suatu elemen.
+
+6.draggable (https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_global_draggable )
+
+Menentukan apakah suatu elemen dapat di-drag atau tidak.
+
+7.dropzone
+
+Menentukan apakah data yang di-drag adalah data yang disalin, dipindahkan, atau ditautkan saat dijatuhkan.
+
+8.hidden
+
+Menentukan apakah suatu elemen ditampilkan atau tidak pada browser.
+
+9.id
+
+Menetapkan id pada elemen.
+
+10.lang
+
+Menentukan bahasa pada konten elemen.
+
+11.spellcheck
+
+Menentukan apakah elemen harus diperiksa ejaannya dan tata bahasanya atau tidak.
+
+12.style
+
+Menentukan styling secara satu baris untuk suatu elemen.
+
+13.tabindex
+
+Menentukan urutan dari suatu elemen.
+
+14.title
+
+Menentukan informasi tambahan tentang suatu elemen.
+
+15.translate
+
+Menentukan apakah konten elemen harus diterjemahkan atau tidak.
+
+###end global atribute'
+
+paragraf -> <p></p>, hindari penggunaan di head dan list 
+heading -> dicari oleh mensin pencarian google search.
+
+list :
+Unordered lists : daftar yang ditampilkan tidak memiliki urutan. 
+<ul>
+   <li><h1>Sebuah Heading sebagai item list</h1></li>
+   <li><h2>Sebuah Heading level 2 sebagai item list</h2></li>
+   <li><p>Sebuah paragraf sebagai item list</p></li>
+</ul>
+
+Ordered lists : daftar yang ditampilkan secara terurut.
+
+<ol type="I">
+   <li>Langkah pertama</li>
+   <li>Langkah kedua</li>
+   <li>Langkah ketiga</li>
+   <li>Langkah selanjutnya</li>
+</ol>
+ 
+<ol type="A">
+   <li>Langkah pertama</li>
+   <li>Langkah kedua</li>
+   <li>Langkah ketiga</li>
+   <li>Langkah selanjutnya</li>
+</ol>
+
+kita bisa menentukan awal urutan dengan atribute start="".
+<ol start="7">
+   <li>Langkah ketujuh</li>
+   <li>Langkah kedelapan</li>
+   <li>Langkah kesembilan</li>
+   <li>Langkah selanjutnya</li>
+</ol>
+
+kita bisa menambahkan atribut reversed pada ol agar urutannya decrement.
+ 
+
+
+Description lists : daftar yang terbuat dari beberapa istilah diikuti dengan deskripsi dari istilah tersebut.
+
+<dl>
+    <dt>Beast of Bodmin</dt>
+    <dd>A large feline inhabiting Bodmin Moor.</dd>
+
+    <dt>Morgawr</dt>
+    <dd>A sea serpent.</dd>
+
+    <dt>Owlman</dt>
+    <dd>A giant owl-like creature.</dd>
+</dl>
+
+
+IMG
+<img src="https://i.imgur.com/EUUXQcf.png" alt="dicoding">
+
+Selanjutnya adalah atribut alt. Atribut ini sebenarnya tidak wajib untuk diterapkan, hanya saja atribut ini akan sangat berguna ketika gambar tidak berhasil ditampilkan. Nilai atribut ini merupakan gambaran dari gambar yang ditampilkan dalam bentuk tulisan. Sehingga ketika gambar gagal ditampilkan maka akan memunculkan teks alternatif yang dapat mewakili arti dari gambar tersebut.  
+
+long quotations
+<blockquote cite="https://id.wikipedia.org/wiki/Situs_web">
+   <p>Situs web (bahasa Inggris: website) adalah sekumpulan halaman web yang saling berhubungan yang umumnya berada pada peladen yang sama berisikan kumpulan informasi yang disediakan secara perorangan, kelompok, atau organisasi.</p>
+</blockquote>
+
+proformatted text -> kita menggunakan <pre></pre> agar yang di tulis di html sama dengan yang kita tulis di code editor
+
+
+<cite> -> rujukan
+<p><dfn>website</dfn> adalah ...</p> -> penjelasan
+ E=MC<sup>2</sup> -> superscript 
+  C<sub>12</sub>H<sub>22</sub>O<sub>11</sub> -> subscript
+
+Highlighted text
+<mark>mata-mata
+      Pemberontak berhasil mencuri rencana rahasia
+</mark>
+
+line break :
+<p>
+   Dicoding Space,<br>
+   Jln. Batik Kumeli No. 50.<br>
+   Bandung.<br>
+   40123
+</p>
+
+
+
+
