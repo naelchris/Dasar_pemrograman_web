@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV-Nathanael</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="myNav" id="myNav">
+                <li><a class="nav_logo" onclick="scrollHome()" href="javascript:void(0);">Nathanael</a></li>
+                <li><a class="nav_item" onclick="scrollMyAside()" href="javascript:void(0);">Summary</a></li>
+                <li><a class="nav_item" onclick="scrollProject()" href="javascript:void(0);">Projects</a></li>
+                <li><a class="nav_item" onclick="scrollMyBio()" href="javascript:void(0);">My Bio</a></li>
+                <li><a class="nav_item" onclick="scrollHome()" href="javascript:void(0);">About Me</a></li>
+
+                <li>
+                    <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+            <article class="" id="home">
+                <div class="content">
+                    <div class="flex_container row">
+                        <div class="flex_item">
+                            <img src="assets/pic1.png" class="home_pic" alt="Profile Picture">
+                        </div>
+                        <div class="flex_item home_about">
+                            <h1>I am Nathanael, Frontend Engineer</h1>
+                            <p>I am a students and broadly understood javascript and have over 2 years of experience working in numerous projects.</p>
+                            <div>
+                                <button class="btn_cv" onclick="scrollMyBio()">Explore</button>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+
+               
+            </article>
+
+            <article id="myBio">
+                <div class="content">
+                    <div class="flex_container row">
+                        <div class="flex_item myBio_about">
+                            <h1>My Bio</h1>
+                            <p>Hello my Name is Nathanael Christianto Amadea. I am a 2nd year Computer Science Student at Multimedia Nusantara University. I always have big hopes in achieving career in computer science. I am also experience in making web apps using laravel.</p>
+                        </div>
+
+                        <div class="flex_item">
+                            <div class="myBio_pic">
+                                <img src="assets/bio-pic.png" class="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </article>
+
+            <article id="project">
+                <div class="content">
+                    <div class="project_title">
+                        <h1>Projects</h1>
+                    </div>
+                    
+                    <div class="flex_container_project column">
+                        <div class="flex_container_item row">
+                            <div class="flex_item project_pic1">
+                                <img src="assets/XYPC_pic (2).png"  alt="">
+                            </div>
+                            <div class="flex_item project_about1">
+                                <h2>XYPC</h2>
+                                <p style="border-bottom: 2px solid #271811;">XYPC is an ecommerce website project that is build with laravel framework. I work as backend engineer integrating the admin panel, and purchase analytics.</p>
+                            </div>
+                        </div>
+                        <div class="flex_container_item row2">
+                            <div class="flex_item project_about1" > 
+                                <h2>Twit-Twit</h2>
+                                <p style="border-bottom: 2px solid #271811;">TwitTwit is one of my mid term project with my friend name Felix Laynardi. The soul purpose of TwitTwit is a social neworking platform simmilar with facebook. it is created with php mvc and mysql.</p>
+                            </div>
+                            <div class="flex_item project_pic1" >
+                                <img src="assets/Twit_pic.png" alt="">
+                            </div>
+                        </div>
+                        <div class="flex_container_item row" style="margin-bottom: 20px" >
+                            <div class="flex_item project_pic1">
+                                <img src="assets/UMN-Tv.png" alt="">
+                            </div>
+                            <div class="flex_item project_about1">
+                                <h2>UMN TV</h2>
+                                <p style="border-bottom: 2px solid #271811;">UMN TV is one of the university media in UMN, we create program such as host show, news and reporting. I work at the department of website so me and my team created the website tv.umn.ac.id.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </article>
+
+        
+        <aside id="myAside" style="background-color: #271811;">
+            <div class="myAside_content">
+                <div class="flex_container row">
+                    <div class="flex_item_pic">
+                        <div class="container">
+                            <img src="assets/my_cv.jpg" class="my_cv" alt="">
+                        </div>
+                    </div>
+                    <div class="flex_container_skils column">
+                  
+                        <div class="flex_item">
+                            <h1 style="font-weight: 500;font-size: 40px;color: #271811;">Summary</h1>
+                        </div>
+                        <div class="flex_item">
+                            <p style="font-weight: 300; font-size: 15px; color: #271811;">Nathanael Christianto Amadea</p>
+                        </div>
+                        <div class="flex_item">
+                            <p style="font-weight: 300; font-size: 15px; color: #271811;" >20 Juni, 2000</p>
+                        </div>
+                        <div class="flex_item">
+                            <p style="font-weight: 300; font-size: 15px; color: #271811;">javascript</p>
+                            <div class="progress"> 
+                                <div class="skill js"></div> 
+                            </div> 
+                        </div>
+                        <div class="flex_item">
+                            <p style="font-weight: 300; font-size: 15px; color: #271811;" >CSS</p>
+                            <div class="progress"> 
+                                <div class="skill js"></div> 
+                            </div> 
+                        </div>
+                        <div class="flex_item">
+                            <p style="font-weight: 300; font-size: 15px; color: #271811;">HTML</p>
+                            <div class="progress"> 
+                                <div class="skill js"></div> 
+                            </div> 
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </aside>
+    </main>
+    <footer id="myFooter">
+        <div class="content">
+            <ul class="myFooter_content">
+                <li><a class="icon_sos" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a class="icon_sos" href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li class="copyR"><p>Created By Nathanael</p></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

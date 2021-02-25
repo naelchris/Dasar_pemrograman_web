@@ -1,0 +1,25 @@
+perkenalan web storage
+
+web storage adalah salah satu web api yang dapat menyimpan data secara lokal pada sisi client.
+
+web storage -> berbeda dengan array/object, bersifat sementara dan akan hilang apapbila di reload.
+
+tipe web storage pada web API :
+1. sessionStorage & localStorage
+
+
+if (typeof(Storage) !== "undefined") {
+  // Browser mendukung sessionStorage/localStorage.
+} else {
+  // Browser tidak mendukung sessionStorage/LocalStorage
+}
+
+pada sessionStorage atau localStorage datanya yang disimpan bernilai primitf seperti Number, boolean, string, object dengan mengubahnya kedalam bentuk string.
+
+Cara mengakses -> dengan menggunakan key-value.
+
+data yang disimpan pada web storage dapat kita lihat mengunakan devtools.
+
+
+cara menggunakan sessionStorage adalah dengan setItem() dua argumen key dan nilai yang dimaksud. untuk mengakses data kita menggunakan getItem()
+

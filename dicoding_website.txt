@@ -159,5 +159,20 @@ line break :
 </p>
 
 
+Elemen <article> bertindak sebagai container untuk independen konten pada sebuah halaman, artinya konten utuh yang tidak terkait dengan konten lain. Bisa saja konten yang dimasud berupa artikel blog, komentar, forum post, dan konten lainnya.
 
 
+<aside> </aside> -> digunakan untuk menampung artikel bisa di dalam <artcle> atau tidak tergantung penggunaan.
+
+<section></section> -> mengelompokan konten yang memiliki kesalaam salah satunya heading.
+
+##table
+<table>
+   <tr>
+      <th></th>
+   </tr>
+
+   <tr>
+      <td><td>
+   </tr>
+</table>
